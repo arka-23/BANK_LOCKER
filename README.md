@@ -18,11 +18,12 @@ schematic circuit diagram of the locker for the code 1-2-1.
   * [The Encoder Circuit](#the-encoder-circuit)
   * [The Counter Circuit](#the-counter-circuit)  
   * [The Three Bit SIPO Register With Counter Acknowledge](#the-three-bit-sipo-register-with-counter-acknowledge)
-  * [Netlist](#netlist)
-  * [Output Waveforms](#output-waveforms)
+  * [The Comparator Circuit](#the-comparator-circuit)
+  * [The Seven Segment Display](#the-seven-segment-display)
   
- - [Explanation for Observed Waveforms](#explanation-for-observed-waveforms)
- - [Conclusion](#conclusion)
+ - [Examples to illustrate the working of the circuit](#examples-to-illustrate-the-working-of-the-circuit)
+ - [Precautions in circuit design](#precautions-in-circuit-design)
+ - [Contributors](#contributors)
  - [Acknowledgement](#acknowledgement)
  - [References](#references)
 
