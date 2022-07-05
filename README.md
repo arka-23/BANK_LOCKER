@@ -1,5 +1,10 @@
 # BANK_LOCKER
-
+This repository contains a Digital Lock design for a logic circuit(combinational and sequential) based digital bank locker opener with three buttons,1,2 and R.
+In order to enter a code, the numerical buttons are to be pressed and the push button ‘R’ is used for reset
+purpose. For opening the locks a user should first push the reset button ‘R’ and then enter a code of three
+digits. R button is to be used to start over again in case of any mistake in entering the code. To open the
+locker your circuit should produce an output of ‘O’ after the correct code has been entered and draw the
+schematic circuit diagram of the locker for the code 1-2-1.
 
 
 
