@@ -22,6 +22,8 @@ schematic circuit diagram of the locker for the code 1-2-1.
   * [The Seven Segment Display](#the-seven-segment-display)
   
  - [Examples to illustrate the working of the circuit](#examples-to-illustrate-the-working-of-the-circuit)
+ - [Multisim Implementation](#multisim-implementation)
+ - [Verilog Implementation](#verilog-implementation)
  - [Precautions in circuit design](#precautions-in-circuit-design)
  - [Contributors](#contributors)
  - [Acknowledgement](#acknowledgement)
@@ -111,6 +113,30 @@ A few sample user inputs are discussed and the signal flow is examined in each c
 ![image](https://user-images.githubusercontent.com/70422874/177377394-93b478b2-c203-47c4-9f47-1e8f8a328640.png)
 
 ![image](https://user-images.githubusercontent.com/70422874/177377455-1cc4e5e8-86b6-4542-ae64-aeb5b3d92661.png)
+
+
+# Multisim Implementation
+
+
+# Verilog Implementation
+
+Verilog Code:
+
+![image](https://user-images.githubusercontent.com/70422874/177384270-b11c1061-6378-4c84-99ee-13d8251380ac.png)
+
+![image](https://user-images.githubusercontent.com/70422874/177383954-5d831d65-7392-4b01-a43f-8edaa0c9ef54.png)
+
+![image](https://user-images.githubusercontent.com/70422874/177384060-52b0821b-2d5c-4b41-a92e-efa079efe6b7.png)
+
+![image](https://user-images.githubusercontent.com/70422874/177384113-a5d70a07-f262-4a7d-9559-c9387043047c.png)
+
+Testbench:
+
+![image](https://user-images.githubusercontent.com/70422874/177384405-2edc6433-8922-4d33-ad64-d6f7a69254b9.png)
+
+Output:
+
+![image](https://user-images.githubusercontent.com/70422874/177384506-4d1324e4-3d93-4595-a622-2f9eac4463ac.png)
 
 
 
