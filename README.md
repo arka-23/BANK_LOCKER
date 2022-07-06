@@ -116,6 +116,10 @@ Input : 1-2-R
 
 ![image](https://user-images.githubusercontent.com/70422874/177456481-fd8f4e9f-fae6-46f0-9a43-3f92a779facd.png)
 
+Note: 
+
+- Red signal - The valid input detector signal
+- Green signal - The serial input to the 3 bit SIPO register.
 
 
 # Verilog Implementation
@@ -148,7 +152,14 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/70422874/177452055-e97efd45-bb94-4bd7-97e0-5d712f6fe9d2.png)
 
+Note:
 
+- lock-> Key Sequence (to be matched with input)
+- count-> Counter Outputs
+- w3 -> Serial Input Signal
+- Q -> SIPO Register Parallel Outputs
+- rst -> Reset Signal
+- q -> Output Signal
 
 
 # Precautions in circuit design
