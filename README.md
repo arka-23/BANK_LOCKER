@@ -49,29 +49,27 @@ MINIMIZED AND SPEED OF OPERATION IS ENHANCED.
 
 
 ## Equipment required
-Breadboard
+- Breadboard
 
-Switches (transistor based or otherwise) for inputs
+- Switches (transistor based or otherwise) for inputs
 
-2:1 Encoder with enable input
+- 2:1 Encoder with enable input
 
-3 bit serial in parallel out register (may be designed using 3
-D flip-flops as well)
+- 3 bit serial in parallel out register (may be designed using 3 D flip-flops as well)
 
-3 bit comparator (may be designed using logic gates as well)
+- 3 bit comparator (may be designed using logic gates as well)
 
-Basic logic gates: AND, OR,
-XOR, XNOR gates
+- Basic logic gates: AND, OR, XOR, XNOR gates
 
-D flip-flops (3 for synchronous mod 3 counter) with clear input
+- D flip-flops (3 for synchronous mod 3 counter) with clear input
 
-Programmable 7 segment display
+- Programmable 7 segment display
 
-Connecting wires
+- Connecting wires
 
-Voltage supply
+- Voltage supply
 
-Ground terminal
+- Ground terminal
 
 # Working of the circuit
 
