@@ -120,15 +120,14 @@ A few sample user inputs are discussed and the signal flow is examined in each c
 
 # Verilog Implementation
 
-Verilog Code:
+Verilog Code: For input sequence - 1 2 1
 
-![image](https://user-images.githubusercontent.com/70422874/177384270-b11c1061-6378-4c84-99ee-13d8251380ac.png)
+![image](https://user-images.githubusercontent.com/70422874/177451271-d764ad68-54f7-436d-ac1b-5cb289115dfd.png)
 
-![image](https://user-images.githubusercontent.com/70422874/177383954-5d831d65-7392-4b01-a43f-8edaa0c9ef54.png)
+![image](https://user-images.githubusercontent.com/70422874/177451329-7f34a398-6890-4210-865e-5a7a3321b928.png)
 
-![image](https://user-images.githubusercontent.com/70422874/177384060-52b0821b-2d5c-4b41-a92e-efa079efe6b7.png)
+![image](https://user-images.githubusercontent.com/70422874/177451512-5c686304-cc3a-4fb8-8460-8e34db42167e.png)
 
-![image](https://user-images.githubusercontent.com/70422874/177384113-a5d70a07-f262-4a7d-9559-c9387043047c.png)
 
 Testbench:
 
@@ -136,7 +135,19 @@ Testbench:
 
 Output:
 
-![image](https://user-images.githubusercontent.com/70422874/177384506-4d1324e4-3d93-4595-a622-2f9eac4463ac.png)
+![image](https://user-images.githubusercontent.com/70422874/177452458-9295ec87-9fe7-4b5e-ae7f-2a82bf636cbc.png)
+
+
+Verilog Code: For input sequence - 1 2 2
+
+Testbench:
+
+![image](https://user-images.githubusercontent.com/70422874/177452127-c8bcbdf6-08e1-4167-8eac-1dada5e5eef7.png)
+
+Output:
+
+![image](https://user-images.githubusercontent.com/70422874/177452055-e97efd45-bb94-4bd7-97e0-5d712f6fe9d2.png)
+
 
 
 
