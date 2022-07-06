@@ -117,6 +117,23 @@ A few sample user inputs are discussed and the signal flow is examined in each c
 
 # Multisim Implementation
 
+Multisim Circuit
+
+![image](https://user-images.githubusercontent.com/70422874/177455847-5807e9d8-2386-46c3-82b2-c29ee50ed69a.png)
+
+Input : 1-2-1 [Matches Key Code - Output Glows]
+
+![image](https://user-images.githubusercontent.com/70422874/177456054-80a648eb-812d-42e7-9242-109c2f0d6ca5.png)
+
+Input : 1-2-2 [Doesnot match Key Code - No Glow]
+
+![image](https://user-images.githubusercontent.com/70422874/177456170-8e72be82-8418-4b14-bf8c-8f0fd02f4c03.png)
+
+Input : 1-2-R
+
+![image](https://user-images.githubusercontent.com/70422874/177456481-fd8f4e9f-fae6-46f0-9a43-3f92a779facd.png)
+
+
 
 # Verilog Implementation
 
