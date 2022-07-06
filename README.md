@@ -191,13 +191,7 @@ An alternate sequential circuit based approach has been proposed and discussed b
 1. Prof. Subir Kumar Sarkar, department of Electronics and Telecommunication, Jadavpur University, Kolkata
 
 # References
-[1] Balraj Singh, Mukesh Kumar, and J. S. Ubhi, “Analysis of CMOS based
-NAND and NOR Gates at 45mm Technology”, IJEECS, ISSN 2348-
-117X, Volume 6, Issue 4, April 2017.
-[2] Sudhakar Alluri1, Uma Umaheshwar, B. Rajendra Naik and
-N.S.S.Reddy, “Design and Performance Analysis of VLSI Circuits in
-180nm Technology”, IJCRT, ISSN: 2320-2882, Volume 6, Issue 2 April
-2018
+[1] Digital Logic And Computer Design By M. Morris Mano.
 
 
 
