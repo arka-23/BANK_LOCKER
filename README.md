@@ -188,9 +188,7 @@ An alternate sequential circuit based approach has been proposed and discussed b
 2. Arka Chakraborty - arkachakraborty16@gmail.com
 
 # Acknowledgement
-1. 
-
-3. 
+1. Prof. Subir Kumar Sarkar, department of Electronics and Telecommunication, Jadavpur University, Kolkata
 
 # References
 [1] Balraj Singh, Mukesh Kumar, and J. S. Ubhi, “Analysis of CMOS based
