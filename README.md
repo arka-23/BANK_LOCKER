@@ -1,5 +1,5 @@
 # BANK_LOCKER
-This repository contains the proposed design and simulated results for a simple logic (sequential and combinational) circuit based Digital Lock design with three buttons 1,2 and R.
+This repository contains the proposed design and simulated results for a simple logic (sequential and combinational) circuit based Digital Lock design with three input buttons 1,2 and R.
 
 
 
