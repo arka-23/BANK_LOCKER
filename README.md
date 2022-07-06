@@ -25,6 +25,7 @@ schematic circuit diagram of the locker for the code 1-2-1.
  - [Multisim Implementation](#multisim-implementation)
  - [Verilog Implementation](#verilog-implementation)
  - [Precautions in circuit design](#precautions-in-circuit-design)
+ - [Proposed alternate approach](#proposed-alternate-approach)
  - [Contributors](#contributors)
  - [Acknowledgement](#acknowledgement)
  - [References](#references)
@@ -45,72 +46,62 @@ MINIMIZED AND SPEED OF OPERATION IS ENHANCED.
 
 ## Block diagram for the proposed model of the digital lock:
 
-![image](https://user-images.githubusercontent.com/70422874/177373592-96b0f1eb-12d8-488a-abfe-ac7d7bfdbd3c.png)
+![AkanshaMukherjee_001910701094 pptx (10)](https://user-images.githubusercontent.com/66127211/177494027-f5a4f163-99ed-4bb5-906f-33325bff9a71.jpg)
 
-
-## Equipment required
-- Breadboard
-
-- Switches (transistor based or otherwise) for inputs
-
-- 2:1 Encoder with enable input
-
-- 3 bit serial in parallel out register (may be designed using 3 D flip-flops as well)
-
-- 3 bit comparator (may be designed using logic gates as well)
-
-- Basic logic gates: AND, OR, XOR, XNOR gates
-
-- D flip-flops (3 for synchronous mod 3 counter) with clear input
-
-- Programmable 7 segment display
-
-- Connecting wires
-
-- Voltage supply
-
-- Ground terminal
+## Equipment required for hardware implementation:
+* Breadboard
+* Switches (transistor based or otherwise) for inputs
+* 2:1 Encoder with enable input
+* 3 bit serial in parallel out register (may be designed using 3 D flip-flops as well)
+* 3 bit comparator (may be designed using logic gates as well)
+* Basic logic gates: AND, OR, XOR, XNOR gates
+* D flip-flops (3 for synchronous mod 3 counter) with clear input
+* Programmable 7 segment display
+* Connecting wires
+* Voltage supply
+* Ground terminal
 
 # Working of the circuit
 
 WE EXPLORE IN DETAIL THE WORKING OF EACH BLOCK OF THE CIRCUIT
 
 ## Inputs
-![image](https://user-images.githubusercontent.com/70422874/177374833-6a86e9b9-06e1-4fa1-8e52-a6428e54a9c3.png)
+![AkanshaMukherjee_001910701094 pptx](https://user-images.githubusercontent.com/66127211/177490045-3ec7cba3-3504-4c8f-9f6f-f8e212ff4478.jpg)
 
 ## The Valid Input Detector
-![image](https://user-images.githubusercontent.com/70422874/177375133-842d866c-59b0-4e67-ac34-2db929fdf5bc.png)
-
+![AkanshaMukherjee_001910701094 pptx (1)](https://user-images.githubusercontent.com/66127211/177490187-875c26bf-8ec5-4e4f-b3c6-241393147d64.jpg)
 
 ## The Encoder Circuit
-![image](https://user-images.githubusercontent.com/70422874/177375337-16af2ac2-06fc-438f-bea0-26252540e6dd.png)
+![AkanshaMukherjee_001910701094 pptx (2)](https://user-images.githubusercontent.com/66127211/177490457-879ac34b-6bae-4008-82b8-43ba83068514.jpg)
 
 
 ## The Counter Circuit
-![image](https://user-images.githubusercontent.com/70422874/177375420-9ad7d043-cce6-42cf-a6eb-68bd28826a62.png)
+![AkanshaMukherjee_001910701094 pptx (3)](https://user-images.githubusercontent.com/66127211/177490526-1dc6f386-6b2a-479e-9d12-0d1ad0dc3d52.jpg)
 
 
 ## The Three Bit SIPO Register With Counter Acknowledge
-![image](https://user-images.githubusercontent.com/70422874/177375621-a654115f-cbdc-4a7c-b022-298f496e21a0.png)
+![AkanshaMukherjee_001910701094 pptx (4)](https://user-images.githubusercontent.com/66127211/177490819-1a830042-4f05-4f22-ba83-bcfbce55a476.jpg)
 
 
 ## The Comparator Circuit
-![image](https://user-images.githubusercontent.com/70422874/177375805-a068e5c4-eece-45b8-98e2-2d215a8bcdd3.png)
+![AkanshaMukherjee_001910701094 pptx (5)](https://user-images.githubusercontent.com/66127211/177490942-7a29e84f-bd44-44da-b0c9-d90022ad9e0c.jpg)
 
 
 ## The Seven Segment Display
-![image](https://user-images.githubusercontent.com/70422874/177375993-5e50e46a-2f19-46a2-8dd7-55dcfc2aca2e.png)
+![AkanshaMukherjee_001910701094 pptx](https://user-images.githubusercontent.com/66127211/177491225-ec98351b-fada-4b72-b63c-ac830be26218.jpg)
 
 
 # Examples to illustrate the working of the circuit
 
 A few sample user inputs are discussed and the signal flow is examined in each case.
+![AkanshaMukherjee_001910701094 pptx (3)](https://user-images.githubusercontent.com/66127211/177491476-665c9df6-c43d-4560-bc23-47136ef3e6da.jpg)
 
-![image](https://user-images.githubusercontent.com/70422874/177377360-9f610679-9f3e-46f4-8ab9-4ee0035ed335.png)
+![AkanshaMukherjee_001910701094 pptx (2)](https://user-images.githubusercontent.com/66127211/177491532-1203bf2f-d64b-4fe9-b550-923277c89289.jpg)
 
-![image](https://user-images.githubusercontent.com/70422874/177377394-93b478b2-c203-47c4-9f47-1e8f8a328640.png)
+![AkanshaMukherjee_001910701094 pptx (1)](https://user-images.githubusercontent.com/66127211/177491571-511d94df-ce94-494d-bea4-2a942c1ea07f.jpg)
 
-![image](https://user-images.githubusercontent.com/70422874/177377455-1cc4e5e8-86b6-4542-ae64-aeb5b3d92661.png)
+
+
 
 
 # Multisim Implementation
@@ -172,9 +163,34 @@ Output:
 3. The devices must be as close to ideal operation, for better results.
 4. Connections must be made properly and the wires must be designed to withstand
 
+# Proposed alternate approach:
+An alternate sequential circuit based approach has been proposed and discussed below. Simulation has not been performed.
+
+![AkanshaMukherjee_001910701094 pptx (1)](https://user-images.githubusercontent.com/66127211/177493152-930e3d5a-ea01-45a4-93c8-11d42d0fb540.jpg)
+
+![AkanshaMukherjee_001910701094 pptx](https://user-images.githubusercontent.com/66127211/177493172-72b89a4f-5283-494a-8b1b-b00a659e7ea9.jpg)
+
+![AkanshaMukherjee_001910701094 pptx (2)](https://user-images.githubusercontent.com/66127211/177493299-2d4f1dc5-4ad8-40a1-831c-52ec4959664f.jpg)
+
+![AkanshaMukherjee_001910701094 pptx (3)](https://user-images.githubusercontent.com/66127211/177493355-91f5494d-c9b6-4329-be0b-1b6a2fbdd71b.jpg)
+
+![AkanshaMukherjee_001910701094 pptx (4)](https://user-images.githubusercontent.com/66127211/177493469-083a6f32-854b-4622-9cb3-8054ce3122b3.jpg)
+
+![AkanshaMukherjee_001910701094 pptx (5)](https://user-images.githubusercontent.com/66127211/177493508-eb0b39a4-4bf0-479c-be2e-9e573d358855.jpg)
+
+![AkanshaMukherjee_001910701094 pptx (6)](https://user-images.githubusercontent.com/66127211/177493593-818f95d5-db05-4031-9d62-1720b2490842.jpg)
+
+![AkanshaMukherjee_001910701094 pptx (7)](https://user-images.githubusercontent.com/66127211/177493641-70bbaf91-e9b8-4471-a2f6-ffc7f4a95c2f.jpg)
+
+![AkanshaMukherjee_001910701094 pptx (8)](https://user-images.githubusercontent.com/66127211/177493717-a5876c0c-e45b-41d8-9f43-38a5ddfabd99.jpg)
+
+![AkanshaMukherjee_001910701094 pptx (9)](https://user-images.githubusercontent.com/66127211/177493774-33eb85bd-8328-4ee1-9a7f-e2d91da062d4.jpg)
+
+
+
 
 # Contributors:
-1. Akansha Mukherjee - Mukherjeeakansha07@gmail.com
+1. Akansha Mukherjee - mukherjeeakansha07@gmail.com
 2. Arka Chakraborty - arkachakraborty16@gmail.com
 
 # Acknowledgement
