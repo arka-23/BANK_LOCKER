@@ -158,7 +158,7 @@ Output:
 4. Connections must be made properly and the wires must be designed to withstand
 
 # Proposed alternate approach:
-An alternate sequential circuit based approach has been proposed and discussed below. Simulation has not been performed.
+An alternate sequential circuit based approach has been proposed and discussed below. Simulation results have not been included.
 
 ![AkanshaMukherjee_001910701094 pptx (1)](https://user-images.githubusercontent.com/66127211/177493152-930e3d5a-ea01-45a4-93c8-11d42d0fb540.jpg)
 
