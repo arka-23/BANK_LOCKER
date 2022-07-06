@@ -1,10 +1,5 @@
 # BANK_LOCKER
-This repository contains a Digital Lock design for a logic circuit(combinational and sequential) based digital bank locker opener with three buttons,1,2 and R.
-In order to enter a code, the numerical buttons are to be pressed and the push button ‘R’ is used for reset
-purpose. For opening the locks a user should first push the reset button ‘R’ and then enter a code of three
-digits. R button is to be used to start over again in case of any mistake in entering the code. To open the
-locker your circuit should produce an output of ‘O’ after the correct code has been entered and draw the
-schematic circuit diagram of the locker for the code 1-2-1.
+This repository contains the proposed design and simulated results for a simple logic (sequential and combinational) circuit based Digital Lock design with three buttons 1,2 and R.
 
 
 
@@ -12,7 +7,7 @@ schematic circuit diagram of the locker for the code 1-2-1.
    * [Abstract](#abstract)
   * [Block diagram for the proposed model of the digital lock](#block-diagram-for-the-proposed-model-of-the-digital-lock)
   * [Equipment Required](#equipment-required)  
-- [Working of the circuit](#working-of-the-circuit)
+- [Building blocks of the circuit](#building-blocks-of-the-circuit)
   * [Inputs](#inputs)
   * [The Valid Input Detector](#the-valid-input-detector)
   * [The Encoder Circuit](#the-encoder-circuit)
@@ -33,15 +28,14 @@ schematic circuit diagram of the locker for the code 1-2-1.
 
 ## Abstract
 
-This repository contains a Digital Lock design for a logic circuit(combinational and sequential) based digital bank locker opener with three buttons,1,2 and R.
-In order to enter a code, the numerical buttons are to be pressed and the push button ‘R’ is used for reset
-purpose. For opening the locks a user should first push the reset button ‘R’ and then enter a code of three
-digits. R button is to be used to start over again in case of any mistake in entering the code. To open the
-locker your circuit should produce an output of ‘O’ after the correct code has been entered and draw the
-schematic circuit diagram of the locker for the code 1-2-1.
+In order to enter a code, the numerical buttons are to be pressed and the push button ‘R’ is used to reset the system. 
+To unlock, a user must first push the reset button ‘R’ and then enter a three-digit code. 
+'R' button is to be used to start over again in case of any mistake in entering the code. 
+To indicate success (i.e. match with the locker code and successful unlocking) the circuit should produce an output of ‘O’ after the correct code has been entered.
 
-OBJECTIVE: THE LOCK MUST BE SO DESIGNED THAT HARDWARE REQUIREMENT AND COST ARE
-MINIMIZED AND SPEED OF OPERATION IS ENHANCED.
+We present the ideas, schematic diagram and simulation results for the locker code of 1-2-1.
+
+Objective: The lock design should be simple, efficient, fast and cost effective. 
 
 
 ## Block diagram for the proposed model of the digital lock:
@@ -61,9 +55,9 @@ MINIMIZED AND SPEED OF OPERATION IS ENHANCED.
 * Voltage supply
 * Ground terminal
 
-# Working of the circuit
+# Building blocks of the circuit
 
-WE EXPLORE IN DETAIL THE WORKING OF EACH BLOCK OF THE CIRCUIT
+Each block of the circuit and its function is discussed below:
 
 ## Inputs
 ![AkanshaMukherjee_001910701094 pptx](https://user-images.githubusercontent.com/66127211/177490045-3ec7cba3-3504-4c8f-9f6f-f8e212ff4478.jpg)
