@@ -1,10 +1,11 @@
 # BANK_LOCKER
-This repository contains the proposed design and simulated results for a simple logic (sequential and combinational) circuit based Digital Lock design with three input buttons 1,2 and R.
+This repository contains the proposed design and simulated results for an asynchronous sequential circuit based Digital Lock design with three input buttons 1,2 and R.
 
 
 
 # Table of Contents
    * [Abstract](#abstract)
+   * [Asynchronous Sequential Circuits](#asynchronous-sequential-circuits)
   * [Block diagram for the proposed model of the digital lock](#block-diagram-for-the-proposed-model-of-the-digital-lock)
   * [Equipment Required](#equipment-required)  
 - [Building blocks of the circuit](#building-blocks-of-the-circuit)
@@ -38,11 +39,29 @@ We present the ideas, schematic diagram and simulation results for the locker co
 Objective: The lock design should be simple, efficient, fast and cost effective. 
 
 
+## Asynchronous Sequential Circuits
+
+Sequential circuits are those which use previous and current input variables by
+storing their information and placing them back into the circuit on the next clock
+(activation) cycle.
+There are two types of input to the combinational logic. External inputs which come
+from outside the circuit design which are not controlled by the circuit Internal inputs
+which are functions of a previous output state.
+Asynchronous sequential circuits do not use clock signals as synchronous circuits do.
+Instead, the circuit is driven by the pulses of the inputs which means the state of the
+circuit changes when the inputs change. The change of internal state occurs when there is a change in the input variable. Their
+memory elements are either un-clocked flip-flops or time-delay elements. They are
+similar to combinational circuits with feedback.
+
+![image](https://user-images.githubusercontent.com/70422874/183555611-2353cab4-1880-47f0-ae87-1f9d5da84903.png)
+
+
+
 ## Block diagram for the proposed model of the digital lock:
 
 ![AkanshaMukherjee_001910701094 pptx (10)](https://user-images.githubusercontent.com/66127211/177494027-f5a4f163-99ed-4bb5-906f-33325bff9a71.jpg)
 
-## Equipment required for hardware implementation:
+## Equipment required:
 * Breadboard
 * Switches (transistor based or otherwise) for inputs
 * 2:1 Encoder with enable input
